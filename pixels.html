@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>pattiko-um.github.io</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="content">
+		<div id="header">
+            <div id="header-left">
+                <h1>Pixel Playground</h1>
+                <p>Draw some inspiration!</p>
+            </div>
+            <div id="header-right">
+                <div id="toolbar">
+                    <div id="tb-row-1">
+                        <input id="colorPicker" type="color" value="#efefef"></input>
+                    </div> <!--#tb-row-1-->
+                    <div id="tb-row-2">
+                        <button id="clearCanvas" onclick="clearCanvas()">Clear Canvas</button>
+                    </div> <!--#tb-row-2-->
+                </div> <!--#toolbar-->
+            </div>
+
+		</div> <!--.header-->
+        <hr>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="pixels.html">Pixels</a></li>
+			</ul>
+		</div> <!--#nav-->
+        <div id="workspace">
+
+            <div id="canvas">
+                <canvas id="pixelCanvas" width="640" height="480"></canvas>
+                <script src="pixels.js"></script>
+            </div> <!--#canvas-->
+        </div> <!--#workspace-->
+        
+	</div> <!--.content-->
+</body>
+</html>
